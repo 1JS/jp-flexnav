@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery Plugin</title>
+    <link rel="stylesheet" href="js/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="js/vendor/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/jquery.plugin.css">
+  </head>
+  <div class="menu-button">Menu</div>
+  <ul class="nav">
+    <li><a href="#">Item 1</a>
+      <ul class="dl-submenu">
+        <li><a href="#">Sub-Item 1</a></li>
+        <li><a href="#">Sub-Item 2</a>
+          <ul class="dl-submenu">
+            <li><a href="#">Sub-Sub-Item 2.1</a></li>
+            <li><a href="#">Sub-Sub-Item 2</a></li>
+            <li><a href="#">Sub-Sub-Item 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Sub-Item 3</a>
+          <ul class="dl-submenu">
+            <li><a href="#">Sub-Sub-Item 3.1</a></li>
+            <li><a href="#">Sub-Sub-Item 2</a></li>
+            <li><a href="#">Sub-Sub-Item 3					</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Sub-Item 4</a></li>
+        <li><a href="#">Sub-Item 5</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Item 2</a></li>
+    <li><a href="#">Item 3</a>
+      <ul class="dl-submenu">
+        <li><a href="#">Sub-Item 1</a></li>
+        <li><a href="#">Sub-Item 2</a>
+          <ul class="dl-submenu">
+            <li><a href="#">Sub-Sub-Item 2.1</a></li>
+            <li><a href="#">Sub-Sub-Item 2</a></li>
+            <li><a href="#">Sub-Sub-Item 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Sub-Item 3</a>
+          <ul class="dl-submenu">
+            <li><a href="#">Sub-Sub-Item 3.1</a></li>
+            <li><a href="#">Sub-Sub-Item 2</a></li>
+            <li><a href="#">Sub-Sub-Item 3					</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Sub-Item 4</a></li>
+        <li><a href="#">Sub-Item 5</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Item 4</a></li>
+    <li><a href="#">Item 5</a>
+      <ul class="dl-submenu">
+        <li><a href="#">Sub-Item 1</a></li>
+        <li><a href="#">Sub-Item 2</a>
+          <ul class="dl-submenu">
+            <li><a href="#">Sub-Sub-Item 2.1</a></li>
+            <li><a href="#">Sub-Sub-Item 2</a></li>
+            <li><a href="#">Sub-Sub-Item 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Sub-Item 3</a>
+          <ul class="dl-submenu">
+            <li><a href="#">Sub-Sub-Item 3.1</a></li>
+            <li><a href="#">Sub-Sub-Item 2</a></li>
+            <li><a href="#">Sub-Sub-Item 3					</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Sub-Item 4</a></li>
+        <li><a href="#">Sub-Item 5</a></li>
+      </ul>
+    </li>
+  </ul>
+  <script src="js/vendor/jquery-1.10.2.js"></script>
+  <script src="js/vendor/zepto.js"></script>
+  <script src="js/vendor/bootstrap/js/bootstrap.js"></script>
+  <script src="js/jquery.plugin.js"></script>
+</html>
+<script>
+  (function(){
+    $('.nav').plugin();
+  })(jQuery);
+</script>
